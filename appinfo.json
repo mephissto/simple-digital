@@ -1,0 +1,34 @@
+{
+    "appKeys": {},
+    "capabilities": [
+        ""
+    ],
+    "companyName": "mephissto@gmail.com",
+    "longName": "Simple Digital Watchface",
+    "projectType": "native",
+    "resources": {
+        "media": [
+            {
+                "file": "fonts/CAFETA__.TTF",
+                "name": "FONT_KEY_CAFETA_78",
+                "type": "font"
+            },
+            {
+                "file": "fonts/CAFETA__.TTF",
+                "name": "FONT_KEY_CAFETA_32",
+                "type": "font"
+            }
+        ]
+    },
+    "sdkVersion": "3",
+    "shortName": "Simple Digital",
+    "targetPlatforms": [
+        "aplite",
+        "basalt"
+    ],
+    "uuid": "645cc6e6-d818-4e12-93ee-4c1de88a35db",
+    "versionLabel": "1.0",
+    "watchapp": {
+        "watchface": false
+    }
+}

@@ -3,7 +3,7 @@
     "capabilities": [
         ""
     ],
-    "companyName": "mephissto@gmail.com",
+    "companyName": "mephissto",
     "longName": "Simple Digital Watchface",
     "projectType": "native",
     "resources": {
@@ -29,6 +29,6 @@
     "uuid": "645cc6e6-d818-4e12-93ee-4c1de88a35db",
     "versionLabel": "1.0",
     "watchapp": {
-        "watchface": false
+        "watchface": true
     }
 }

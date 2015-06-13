@@ -1,7 +1,7 @@
 # Simple Digital Pebble Time Watchface
 Simple Digital Watchface for Pebble.
 
-It runs Pebble and Pebble Time.
+It runs on Pebble and Pebble Time.
 
 ## Pebble
 ![](screenshots/aplite.png)

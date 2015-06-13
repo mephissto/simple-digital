@@ -44,11 +44,11 @@ static void tick_handler(struct tm *tick_time, TimeUnits units_changed) {
 static void main_window_load(Window *window) {
   
   // Create GFont
-  s_time_font = fonts_load_custom_font(resource_get_handle(RESOURCE_ID_FONT_KEY_CAFETA_78));
-  s_date_font = fonts_load_custom_font(resource_get_handle(RESOURCE_ID_FONT_KEY_CAFETA_32));
+  s_time_font = fonts_load_custom_font(resource_get_handle(RESOURCE_ID_FONT_KEY_GOTHAM_78));
+  s_date_font = fonts_load_custom_font(resource_get_handle(RESOURCE_ID_FONT_KEY_GOTHAM_32));
   
   // Create hour TextLayer
-  s_hour_layer = text_layer_create(GRect(0, 31, 70, 80));
+  s_hour_layer = text_layer_create(GRect(0, 33, 64, 78));
   text_layer_set_background_color(s_hour_layer, GColorBlack);
 #ifdef PBL_COLOR
   text_layer_set_text_color(s_hour_layer, GColorElectricBlue);
@@ -61,7 +61,7 @@ static void main_window_load(Window *window) {
   text_layer_set_text_alignment(s_hour_layer, GTextAlignmentRight);
   
   // Create min TextLayer
-  s_min_layer = text_layer_create(GRect(74, 31, 70, 80));
+  s_min_layer = text_layer_create(GRect(80, 33, 64, 78));
   text_layer_set_background_color(s_min_layer, GColorBlack);
 #ifdef PBL_COLOR
   text_layer_set_text_color(s_min_layer, GColorShockingPink);
@@ -85,7 +85,7 @@ static void main_window_load(Window *window) {
   text_layer_set_text_alignment(s_date_layer, GTextAlignmentCenter);
 
   // Add it as a child layer to the Window's root layer
-  //layer_add_child(window_get_root_layer(window), text_layer_get_layer(s_date_layer));
+  layer_add_child(window_get_root_layer(window), text_layer_get_layer(s_date_layer));
   layer_add_child(window_get_root_layer(window), text_layer_get_layer(s_hour_layer));
   layer_add_child(window_get_root_layer(window), text_layer_get_layer(s_min_layer));
 }

@@ -9,13 +9,13 @@
     "resources": {
         "media": [
             {
-                "file": "fonts/CAFETA__.TTF",
-                "name": "FONT_KEY_CAFETA_78",
+                "file": "fonts/Gotham Nights.ttf",
+                "name": "FONT_KEY_GOTHAM_32",
                 "type": "font"
             },
             {
-                "file": "fonts/CAFETA__.TTF",
-                "name": "FONT_KEY_CAFETA_32",
+                "file": "fonts/Gotham Nights.ttf",
+                "name": "FONT_KEY_GOTHAM_78",
                 "type": "font"
             }
         ]

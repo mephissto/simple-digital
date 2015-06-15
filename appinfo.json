@@ -1,7 +1,9 @@
 {
-    "appKeys": {},
+    "appKeys": {
+        "PERSIST_KEY_DATE": 1
+    },
     "capabilities": [
-        ""
+        "configurable"
     ],
     "companyName": "mephissto",
     "longName": "Simple Digital Watchface",
@@ -27,7 +29,7 @@
         "basalt"
     ],
     "uuid": "645cc6e6-d818-4e12-93ee-4c1de88a35db",
-    "versionLabel": "1.0",
+    "versionLabel": "1.1",
     "watchapp": {
         "watchface": true
     }
